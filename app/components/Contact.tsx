@@ -24,7 +24,7 @@ export default function Contact() {
           rel="noopener noreferrer"
           className={styles.emailBtn}
         >
-          jadili2482003@gmail.com
+          {"Let's Work Together"}
         </a>
         </div>
       </div>

@@ -12,7 +12,7 @@ export default function Hero() {
         <div className={styles.leftCol}>
           <span className={styles.helloText}>Hello!</span>
           <h1 className={styles.mainTitle}>
-            Im <span className={styles.nameHighlight}>Asma Jadili</span>
+          { " I'm "}<span className={styles.nameHighlight}>Asma Jadili</span>
           </h1>
           <h2 className={styles.subTitle}>
             Mobile & Web Developer (Flutter | Next.js)
