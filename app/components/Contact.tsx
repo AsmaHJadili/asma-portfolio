@@ -18,12 +18,14 @@ export default function Contact() {
         
         {/* رابط بريدك الإلكتروني كزر ذهبي فخم */}
         <div className={styles.mailWrapper}>
-        <a
-  href="jadili2482003@gmail.com"
-  className={styles.emailBtn}
->
-  jadili2482003@gmail.com
-</a>
+        <a 
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=jadili2482003@gmail.com" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className={styles.emailBtn}
+        >
+          jadili2482003@gmail.com
+        </a>
         </div>
       </div>
     </section>

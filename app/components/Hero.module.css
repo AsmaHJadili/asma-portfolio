@@ -526,3 +526,35 @@ body {
   box-shadow: 0 4px 20px rgba(212, 175, 55, 0.2);
   transform: translateY(-3px);
 }
+/* /////////    SCROLL TO TOP////// */
+
+.scrollToTopBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: #0b0b0b; /* نفس لون الرمادي الداكن للبطاقات */
+  color: #ef4444; /* اللون البرتقالي المميز لموقعك */
+  border: 1px solid #ef4444;
+  width: 45px;
+  height: 45px;
+  border-radius: 50px; /* يجعله دائرياً */
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; /* لضمان ظهوره فوق كل عناصر الصفحة */
+  
+  /* حركة ناعمة عند الظهور وعند مرور الماوس */
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* التأثير التفاعلي عند مرور الفأرة (Hover) */
+.scrollToTopBtn:hover {
+  background-color: #ef4444; /* تنعكس الألوان ليصبح ممتلئاً بالبرتقالي */
+  color: #0b0b0b;
+  transform: translateY(-5px); /* يرتفع قليلاً ليعطي شعوراً بالحركة */
+  box-shadow: 0 8px 15px rgba(239, 68, 68, 0.3); /* توهج برتقالي ناعم */
+}

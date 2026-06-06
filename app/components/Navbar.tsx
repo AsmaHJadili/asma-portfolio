@@ -16,10 +16,10 @@ export default function Navbar() {
       {/* الشعار الذهبي الخاص بكِ */}
       <div className={styles.logoWrapper}>
         <Image 
-          src="/images/logo.png" 
+          src="/images/asmajadili_logo.png" 
           alt="Asma Jadili Logo" 
-          width={180} 
-          height={85} 
+          width={150} 
+          height={55} 
           priority
           style={{ objectFit: 'contain' }}
           className={styles.logoImg}
